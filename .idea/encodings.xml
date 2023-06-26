@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/comment-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/comment-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/appointment-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/appointment-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/department-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/department-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/feign-api/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/feign-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/like-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/like-service/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/post-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/post-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-service/src/main/resources" charset="UTF-8" />
   </component>

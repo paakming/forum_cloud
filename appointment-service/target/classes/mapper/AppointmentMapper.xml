@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wbm.hospital.mapper.AppointmentMapper">
+
+    <resultMap id="BaseResultMap" type="com.wbm.hospital.entity.Appointment">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+            <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+            <result property="patientId" column="patient_id" jdbcType="BIGINT"/>
+            <result property="doctorId" column="doctor_id" jdbcType="BIGINT"/>
+            <result property="departmentId" column="department_id" jdbcType="BIGINT"/>
+            <result property="departmentCode" column="department_code" jdbcType="VARCHAR"/>
+            <result property="cost" column="cost" jdbcType="DECIMAL"/>
+            <result property="status" column="status" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,create_time,update_time,
+        patient_id,doctor_id,department_id,
+        department_code,cost,status
+    </sql>
+</mapper>

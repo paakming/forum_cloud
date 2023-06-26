@@ -2,27 +2,25 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.wbm.forum.mapper.UserMapper">
+<mapper namespace="com.wbm.hospital.mapper.UserMapper">
 
-    <resultMap id="BaseResultMap" type="com.wbm.forum.entity.User">
-            <id property="uid" column="uid" jdbcType="INTEGER"/>
+    <resultMap id="BaseResultMap" type="com.wbm.hospital.entity.User">
+            <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="username" column="username" jdbcType="VARCHAR"/>
-            <result property="password" column="password" jdbcType="VARCHAR"/>
-            <result property="nickname" column="nickname" jdbcType="VARCHAR"/>
-            <result property="sex" column="sex" jdbcType="VARCHAR"/>
             <result property="phone" column="phone" jdbcType="VARCHAR"/>
+            <result property="certificatesType" column="certificates_type" jdbcType="VARCHAR"/>
+            <result property="certificatesNo" column="certificates_no" jdbcType="BIGINT"/>
+            <result property="status" column="status" jdbcType="VARCHAR"/>
             <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
-            <result property="isDelete" column="is_delete" jdbcType="VARCHAR"/>
+            <result property="password" column="password" jdbcType="VARCHAR"/>
             <result property="avatar" column="avatar" jdbcType="VARCHAR"/>
-            <result property="identity" column="identity" jdbcType="VARCHAR"/>
-            <result property="email" column="email" jdbcType="VARCHAR"/>
-            <result property="birthday" column="birthday" jdbcType="DATE"/>
+            <result property="birthday" column="birthday" jdbcType="TIMESTAMP"/>
     </resultMap>
 
     <sql id="Base_Column_List">
-        uid,username,password,
-        nickname,sex,phone,
-        create_time,is_delete,avatar,
-        identity,email,birthday
+        id,username,phone,
+        certificates_type,certificates_no,status,
+        create_time,password,avatar,
+        birthday
     </sql>
 </mapper>
